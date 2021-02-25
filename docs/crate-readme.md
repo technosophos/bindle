@@ -7,7 +7,7 @@ Bindle is an aggregate object storage system used for storing aggregate applicat
 Add the following to your `Cargo.toml` dependencies:
 
 ```toml
-bindle = "0.1"
+bindle = "0.3"
 ```
 
 ### Features
@@ -15,7 +15,7 @@ bindle = "0.1"
 By default, all of the following features are enabled. To use specific features (for example, just using the client component):
 
 ```toml
-bindle = { version = "0.1", default-features = false, features = ["client"]}
+bindle = { version = "0.3", default-features = false, features = ["client"]}
 ```
 
 - `client`: The client component of Bindle. This includes a fully featured client SDK.
